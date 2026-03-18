@@ -12,3 +12,10 @@
   <% end %>
 </ul>
 <br>
+
+<h1>Please fill form below to leave your review</h1>
+<%= simple_form_for [@restaurant, @review] do |f| %>
+  <%= f.input :rating, collection: 0..5 %>
+  <%= f.input :content %>
+  <%= f.submit "Submit review", class: "btn btn-primary" %>
+<% end %>

@@ -60,3 +60,7 @@ end
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 gem "simple_form"
+gem "bootstrap", "~> 5.3"
+gem "sassc-rails"
+gem "font-awesome-sass", "~> 6.1"
+
